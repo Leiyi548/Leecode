@@ -18,13 +18,10 @@ class Test {
     private List<List<Integer>> res = new ArrayList<>();
 
     public List<List<Integer>> add() {
-        List<Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(1);
-        list.add(1);
-        res.add(list);
-        res.add(list);
-        res.add(list);
+        Boolean []test = new Boolean[4];
+        for (int i = 0; i < test.length; i++) {
+            System.out.printf("test:" + test[i]);
+        }
         return res;
     }
 }
