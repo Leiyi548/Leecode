@@ -1,4 +1,3 @@
-for i in range(1, 4):
-    print(str(i) + ".helloworld")
-
 print("helloworld")
+print("helloworld")
+print("helloworld", 2, 3, 4, 5)
