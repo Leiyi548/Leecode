@@ -9,3 +9,4 @@ for i in range(4):
     pyautogui.typewrite(txt)
     pyautogui.press("enter")
     time.sleep(2)
+    print()
